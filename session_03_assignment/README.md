@@ -16,7 +16,7 @@ Rotate an array of integers to the right by a given number of steps within the `
 - Use a `for` loop to shift elements to the right for the given number of steps.
 - Ensure that the program handles cases where the step is greater than the size of the array.
 
-### Task 7: **Rearrange Array in Zigzag Order** `zigzag.cpp`
+### Task 8: **Rearrange Array in Zigzag Order** `zigzag.cpp`
 Rearrange the elements of an array in such a way that they follow a zigzag pattern (`arr[0] < arr[1] > arr[2] < arr[3]...`).
 
 **Description:**
@@ -28,7 +28,7 @@ Rearrange the elements of an array in such a way that they follow a zigzag patte
 - Use simple comparisons and a `for` loop to achieve this.
 
 
-### Task 7: **Count Positive, Negative, and Zero Elements** `array_count.cpp`
+### Task 8: **Count Positive, Negative, and Zero Elements** `array_count.cpp`
 Write a program that counts how many elements in an array are positive, negative, or zero.
 
 **Description:**
@@ -38,3 +38,72 @@ Write a program that counts how many elements in an array are positive, negative
 **Steps:**
 - Use a loop to go through the array and increment separate counters for positive, negative, and zero values.
 
+
+## Task 9: Count Words in a Sentence `word_count.cpp`
+
+Write a C++ program that takes a sentence as input and counts the number of words in the sentence. Words are assumed to be separated by one or more spaces.
+
+### Input:
+- A string that represents the sentence. For example:
+  ```
+  Welcome to C++ programming
+  ```
+
+### Output:
+- The number of words in the sentence.
+  ```
+  Word count: 4
+  ```
+
+### Requirements:
+- You are not allowed to use any string manipulation library functions like `std::stringstream`.
+- The program should handle multiple spaces between words.
+
+---
+
+## Task 10: Check if a String is a Palindrome `is_palindrome.cpp`
+
+Write a C++ program that checks if a given string is a palindrome. A string is a palindrome if it reads the same backward as forward. The program should ignore spaces and case differences.
+
+### Input:
+- A string input from the user. For example:
+  ```
+  madam
+  ```
+
+### Output:
+- If the string is a palindrome, print:
+  ```
+  The string is a palindrome.
+  ```
+- Otherwise, print:
+  ```
+  The string is not a palindrome.
+  ```
+
+### Requirements:
+- Ignore spaces and case sensitivity (e.g., "Race car" should be considered a palindrome).
+- No built-in functions like `std::reverse()` should be used to reverse the string.
+
+---
+
+## Task 11: Reverse a String `string_reverse.cpp`
+
+### Problem:
+Write a C++ program that takes a string as input from the user and prints the string in reverse order.
+
+### Input:
+- A string input from the user. For example:
+  ```
+  hello
+  ```
+
+### Output:
+- The reversed string:
+  ```
+  Reversed string: olleh
+  ```
+
+### Requirements:
+- Do not use any built-in functions like `strrev()` to reverse the string.
+- Handle both upper and lowercase letters properly.
