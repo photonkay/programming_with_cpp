@@ -8,7 +8,6 @@ int main() {
     cout << "Enter a number: ";
     cin >> num;
     
-    // Check for even or odd (logical error)
     if (num % 2 = 0) {
         cout << "The number is even." << endl;
     } else {
