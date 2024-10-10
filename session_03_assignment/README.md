@@ -4,6 +4,7 @@ These are your coding tasks for practice on debugging, the use of arrays and str
 
 Tasks 1 - 5 : You are required to debug the codes.
 
+---
 
 ### Task 6: **Rotate an Array** `rotate_array.cpp`
 Rotate an array of integers to the right by a given number of steps within the `main()` function.
@@ -16,6 +17,8 @@ Rotate an array of integers to the right by a given number of steps within the `
 - Use a `for` loop to shift elements to the right for the given number of steps.
 - Ensure that the program handles cases where the step is greater than the size of the array.
 
+---
+
 ### Task 7: **Rearrange Array in Zigzag Order** `zigzag.cpp`
 Rearrange the elements of an array in such a way that they follow a zigzag pattern (`arr[0] < arr[1] > arr[2] < arr[3]...`).
 
@@ -27,6 +30,7 @@ Rearrange the elements of an array in such a way that they follow a zigzag patte
 - Traverse the array and swap adjacent elements if they don’t satisfy the zigzag condition.
 - Use simple comparisons and a `for` loop to achieve this.
 
+---
 
 ### Task 8: **Count Positive, Negative, and Zero Elements** `array_count.cpp`
 Write a program that counts how many elements in an array are positive, negative, or zero.
@@ -38,6 +42,7 @@ Write a program that counts how many elements in an array are positive, negative
 **Steps:**
 - Use a loop to go through the array and increment separate counters for positive, negative, and zero values.
 
+---
 
 ### Task 9: Count Words in a Sentence `word_count.cpp`
 
