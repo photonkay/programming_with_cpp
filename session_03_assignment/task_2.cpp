@@ -1,16 +1,15 @@
-// The code is supposed to calculate the average of three numbers, but both syntax and logical errors prevent it from working correctly.
+//This code is supposed to print the numbers from 1 to 5, but it enters an infinite loop.
 
 #include<iostream>
 using namespace std;
 
 int main() {
-    int num1, num2, num3;
-    cout << "Enter three numbers: ";
-    cin >> num1, num2, num3;
+    int i = 1;
     
-    // Calculate average (logical and syntax errors)
-    float average = (num1 + num2 + num3) / 3;
-    cout << "The average is: " << average endl;
+    // Loop to print numbers from 1 to 5 (logical error causes infinite loop)
+    while (i <= 5) {
+        cout << i << endl;
+    }
     
-    return 0
+    return 0;
 }
